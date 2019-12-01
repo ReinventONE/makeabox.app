@@ -1,5 +1,7 @@
 # README
 
+[![CircleCI](https://circleci.com/gh/ReinventONE/makeabox.app.svg?style=svg)](https://circleci.com/gh/ReinventONE/makeabox.app)
+
 ## Rails Generation
 
 This project was originally generated with the following command give to Rails 6.0:
