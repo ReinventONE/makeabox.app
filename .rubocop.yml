@@ -1,0 +1,26 @@
+AllCops:
+  TargetRubyVersion: 2.6
+  UseCache: true
+  DefaultFormatter: progress
+  DisplayStyleGuide: true
+  DisplayCopNames: true
+  Exclude:
+    - './vendor/bundle/**/*'
+    - './node_modules/**/*'
+  Include:
+    - '**/*.rb'
+    - '**/*.gemfile'
+    - '**/*.gemspec'
+    - '**/*.rake'
+    - '**/*.ru'
+    - '**/Gemfile'
+    - '**/Rakefile'
+
+inherit_mode:
+  merge:
+    - Include
+    - Exclude
+
+inherit_gem:
+  relaxed-rubocop: .rubocop.yml
+

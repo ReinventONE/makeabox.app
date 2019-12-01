@@ -1,0 +1,24 @@
+{
+  "name": "makeabox_app",
+  "private": true,
+  "dependencies": {
+    "@angular/common": "^8.2.13",
+    "@angular/compiler": "^8.2.13",
+    "@angular/core": "^8.2.13",
+    "@angular/platform-browser": "^8.2.13",
+    "@angular/platform-browser-dynamic": "^8.2.13",
+    "@rails/actioncable": "^6.0.0-alpha",
+    "@rails/activestorage": "^6.0.0-alpha",
+    "@rails/ujs": "^6.0.0-alpha",
+    "@rails/webpacker": "^4.0.7",
+    "core-js": "^3.3.6",
+    "rxjs": "^6.5.3",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.6.4",
+    "zone.js": "^0.10.2"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "webpack-dev-server": "^3.9.0"
+  }
+}
